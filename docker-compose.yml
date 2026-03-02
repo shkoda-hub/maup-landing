@@ -1,0 +1,54 @@
+services:
+  mariadb:
+    image: mariadb:10.11
+    container_name: moodle_db
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: moodle
+      MYSQL_USER: moodle
+      MYSQL_PASSWORD: moodlepassword
+    volumes:
+      - moodle_db_data:/var/lib/mysql
+    networks:
+      - moodle_net
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  moodle:
+    image: bitnamilegacy/moodle:4
+    container_name: moodle_app
+    depends_on:
+      mariadb:
+        condition: service_healthy
+    ports:
+      - "8080:8080"
+    environment:
+      MOODLE_DATABASE_HOST: mariadb
+      MOODLE_DATABASE_PORT_NUMBER: 3306
+      MOODLE_DATABASE_NAME: moodle
+      MOODLE_DATABASE_USER: moodle
+      MOODLE_DATABASE_PASSWORD: moodlepassword
+      MOODLE_USERNAME: admin
+      MOODLE_PASSWORD: Admin1234!
+      MOODLE_EMAIL: admin@example.com
+      MOODLE_SITE_NAME: "Test Campus"
+      MOODLE_ENABLE_HTTPS: "no"
+      # Включаем REST API
+      MOODLE_EXTRA_INSTALL_ARGS: "--agree-license"
+    volumes:
+      - moodle_data:/bitnami/moodle
+      - moodle_moodledata:/bitnami/moodledata
+    networks:
+      - moodle_net
+
+volumes:
+  moodle_db_data:
+  moodle_data:
+  moodle_moodledata:
+
+networks:
+  moodle_net:
+    driver: bridge
