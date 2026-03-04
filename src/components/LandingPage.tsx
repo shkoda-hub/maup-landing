@@ -133,6 +133,46 @@ const t = {
       useful: 'Корисні посилання',
       copyright: '© 2026 ПрАТ «ВНЗ «МАУП». Всі права захищено.',
     },
+    programsPage: {
+      heroTag: 'Освітні програми',
+      heroH1: 'Оберіть свій напрям',
+      heroDesc: 'Дистанційна форма навчання · Диплом державного зразка · Вступ без ЗНО/НМТ',
+      back: 'Повернутися',
+      tabBachelor: 'Бакалаврат',
+      tabMaster: 'Магістратура',
+      ctaH3: 'Готові вступити?',
+      ctaP: 'Вступ без ЗНО/НМТ · Диплом державного зразка · 100% онлайн',
+      ctaBtn: 'Подати заявку →',
+      bachelor: [
+        { code: 'B2', title: 'Дизайн',                                                 op: "ОП «Графічний дизайн», «Веб-дизайн»" },
+        { code: 'C1', title: 'Економіка та міжнародні економічні відносини',            op: "ОП «Економіка та фінанси»" },
+        { code: 'C4', title: 'Психологія',                                              op: "ОП «Психологія», «Клінічна психологія»" },
+        { code: 'C7', title: 'Журналістика',                                            op: "ОП «Політологія та журналістика»" },
+        { code: 'D1', title: 'Облік і оподаткування',                                  op: "ОП «Облік і оподаткування»" },
+        { code: 'D2', title: 'Фінанси, банківська справа, страхування та фондовий ринок', op: "ОП «Економіка та фінанси»" },
+        { code: 'D3', title: 'Менеджмент',                                              op: "ОП «Менеджмент», «Адміністративний менеджмент»" },
+        { code: 'D5', title: 'Маркетинг',                                               op: "ОП «Маркетинг і рекламний бізнес»" },
+        { code: 'D8', title: 'Право',                                                   op: "ОП «Право»" },
+        { code: 'F2', title: 'Інженерія програмного забезпечення',                     op: "ОП «Інженерія програмного забезпечення»" },
+        { code: 'F3', title: "Комп'ютерні науки",                                       op: "ОП «Комп'ютерні науки»" },
+        { code: 'F5', title: 'Кібербезпека та захист інформації',                       op: "ОП «Кібербезпека»" },
+        { code: 'K3', title: 'Національна безпека',                                     op: "ОП «Національна безпека (за окремими сферами забезпечення)»" },
+      ],
+      master: [
+        { code: 'B2', title: 'Дизайн',                                                 op: "ОП «Дизайн»" },
+        { code: 'C1', title: 'Економіка та міжнародні економічні відносини',            op: "ОП «Корпоративна економіка»" },
+        { code: 'C4', title: 'Психологія',                                              op: "ОП «Психологія», «Клінічна психологія»" },
+        { code: 'D1', title: 'Облік і оподаткування',                                  op: "ОП «Облік і оподаткування»" },
+        { code: 'D2', title: 'Фінанси, банківська справа, страхування та фондовий ринок', op: "ОП «Корпоративні фінанси»" },
+        { code: 'D3', title: 'Менеджмент',                                              op: "ОП «Менеджмент»" },
+        { code: 'D4', title: 'Публічне управління та адміністрування',                  op: "ОП «Публічне управління та адміністрування»" },
+        { code: 'D5', title: 'Маркетинг',                                               op: "ОП «Маркетинг і рекламний бізнес»" },
+        { code: 'D8', title: 'Право',                                                   op: "ОП «Право»" },
+        { code: 'F2', title: 'Інженерія програмного забезпечення',                     op: "ОП «Інженерія програмного забезпечення»" },
+        { code: 'F3', title: "Комп'ютерні науки",                                       op: "ОП «Комп'ютерні науки»" },
+        { code: 'F5', title: 'Кібербезпека та захист інформації',                       op: "ОП «Кібербезпека»" },
+      ],
+    },
   },
 
   en: {
@@ -250,6 +290,46 @@ const t = {
       useful: 'Useful Links',
       copyright: '© 2026 PJSC "HEI IAPM". All rights reserved.',
     },
+    programsPage: {
+      heroTag: 'Academic Programs',
+      heroH1: 'Choose your specialization',
+      heroDesc: 'Distance learning · State-recognized diploma · No entrance exam required',
+      back: 'Go Back',
+      tabBachelor: "Bachelor's",
+      tabMaster: "Master's",
+      ctaH3: 'Ready to apply?',
+      ctaP: 'No entrance exam · State-recognized diploma · 100% online',
+      ctaBtn: 'Apply Now →',
+      bachelor: [
+        { code: 'B2', title: 'Design',                                         op: 'EP "Graphic Design", "Web Design"' },
+        { code: 'C1', title: 'Economics and International Economic Relations',  op: 'EP "Economics and Finance"' },
+        { code: 'C4', title: 'Psychology',                                      op: 'EP "Psychology", "Clinical Psychology"' },
+        { code: 'C7', title: 'Journalism',                                      op: 'EP "Political Science and Journalism"' },
+        { code: 'D1', title: 'Accounting and Taxation',                         op: 'EP "Accounting and Taxation"' },
+        { code: 'D2', title: 'Finance, Banking, Insurance and Stock Market',    op: 'EP "Economics and Finance"' },
+        { code: 'D3', title: 'Management',                                      op: 'EP "Management", "Administrative Management"' },
+        { code: 'D5', title: 'Marketing',                                       op: 'EP "Marketing and Advertising Business"' },
+        { code: 'D8', title: 'Law',                                             op: 'EP "Law"' },
+        { code: 'F2', title: 'Software Engineering',                            op: 'EP "Software Engineering"' },
+        { code: 'F3', title: 'Computer Science',                                op: 'EP "Computer Science"' },
+        { code: 'F5', title: 'Cybersecurity and Information Protection',        op: 'EP "Cybersecurity"' },
+        { code: 'K3', title: 'National Security',                               op: 'EP "National Security (by specific areas)"' },
+      ],
+      master: [
+        { code: 'B2', title: 'Design',                                         op: 'EP "Design"' },
+        { code: 'C1', title: 'Economics and International Economic Relations',  op: 'EP "Corporate Economics"' },
+        { code: 'C4', title: 'Psychology',                                      op: 'EP "Psychology", "Clinical Psychology"' },
+        { code: 'D1', title: 'Accounting and Taxation',                         op: 'EP "Accounting and Taxation"' },
+        { code: 'D2', title: 'Finance, Banking, Insurance and Stock Market',    op: 'EP "Corporate Finance"' },
+        { code: 'D3', title: 'Management',                                      op: 'EP "Management"' },
+        { code: 'D4', title: 'Public Administration',                           op: 'EP "Public Administration"' },
+        { code: 'D5', title: 'Marketing',                                       op: 'EP "Marketing and Advertising Business"' },
+        { code: 'D8', title: 'Law',                                             op: 'EP "Law"' },
+        { code: 'F2', title: 'Software Engineering',                            op: 'EP "Software Engineering"' },
+        { code: 'F3', title: 'Computer Science',                                op: 'EP "Computer Science"' },
+        { code: 'F5', title: 'Cybersecurity and Information Protection',        op: 'EP "Cybersecurity"' },
+      ],
+    },
   },
 } as const;
 
@@ -283,17 +363,173 @@ function Counter({ to, suffix = '', prefix = '' }: { to: number; suffix?: string
   return <span ref={ref}>{prefix}{count}{suffix}</span>;
 }
 
+// ─── Programs overlay page ────────────────────────────────────────────────────
+type PPData = {
+  heroTag: string; heroH1: string; heroDesc: string; back: string;
+  tabBachelor: string; tabMaster: string;
+  ctaH3: string; ctaP: string; ctaBtn: string;
+  bachelor: { code: string; title: string; op: string }[];
+  master:   { code: string; title: string; op: string }[];
+};
+
+function ProgramsPage({ pp, subtitle, lang, onToggleLang, activeTab, setActiveTab, onClose }: {
+  pp: PPData;
+  subtitle: string;
+  lang: Lang;
+  onToggleLang: () => void;
+  activeTab: 'bachelor' | 'master';
+  setActiveTab: (tab: 'bachelor' | 'master') => void;
+  onClose: () => void;
+}) {
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (containerRef.current) containerRef.current.scrollTop = 0;
+    document.body.style.overflow = 'hidden';
+    return () => { document.body.style.overflow = ''; };
+  }, []);
+
+  const programs = activeTab === 'bachelor' ? pp.bachelor : pp.master;
+
+  return (
+    <motion.div
+      ref={containerRef}
+      initial={{ opacity: 0, y: 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: 16 }}
+      transition={{ duration: 0.22 }}
+      className="fixed inset-0 z-[9999] bg-[#f1f1e9] overflow-y-auto"
+      style={{ fontFamily: "'Inter', 'Helvetica Neue', Arial, sans-serif" }}
+    >
+      {/* Header */}
+      <div className="bg-[#004682] py-5 sticky top-0 z-10" style={{ boxShadow: '0 2px 20px rgba(0,70,130,.4)' }}>
+        <div className="max-w-[1200px] mx-auto px-6 flex items-center justify-between gap-4">
+          <button onClick={onClose} className="flex items-center gap-3 cursor-pointer bg-transparent border-none p-0">
+            <div className="w-11 h-11 bg-[#0064b4] flex items-center justify-center flex-shrink-0">
+              <GraduationCap size={22} className="text-white" strokeWidth={1.6} />
+            </div>
+            <div className="text-left">
+              <div className="text-white text-[1.3rem] font-black leading-none tracking-tight">МАУП</div>
+              <div className="text-[#0096f0] text-[10px] font-bold uppercase tracking-[0.14em] mt-0.5">{subtitle}</div>
+            </div>
+          </button>
+          <div className="flex items-center gap-2.5">
+            <button
+              onClick={onToggleLang}
+              className="bg-transparent text-white px-4 py-2 text-sm font-bold cursor-pointer transition-all hover:bg-[#0096f0]"
+              style={{ border: '2px solid rgba(255,255,255,.3)', letterSpacing: '0.04em' }}
+            >
+              {lang === 'uk' ? 'EN' : 'УК'}
+            </button>
+            <button
+              onClick={onClose}
+              className="inline-flex items-center gap-2 bg-transparent text-white px-5 py-2.5 text-sm font-bold cursor-pointer transition-all hover:bg-[#0096f0]"
+              style={{ border: '2px solid rgba(255,255,255,.3)' }}
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
+                <path d="M19 12H5M12 5l-7 7 7 7" />
+              </svg>
+              {pp.back}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Hero */}
+      <div
+        className="relative overflow-hidden py-14"
+        style={{ background: 'linear-gradient(135deg,#004682 0%,#0064b4 60%,#0096f0 100%)' }}
+      >
+        <div className="absolute inset-0"
+          style={{ backgroundImage: 'radial-gradient(rgba(255,255,255,.07) 1.5px,transparent 1.5px)', backgroundSize: '28px 28px' }} />
+        <div className="relative z-10 max-w-[1200px] mx-auto px-6">
+          <span className="inline-block text-[#0096f0] text-[11px] font-extrabold uppercase tracking-[0.22em] mb-4">{pp.heroTag}</span>
+          <h1 className="text-[clamp(2rem,5vw,3.2rem)] font-black text-white leading-[1.1] tracking-tight mb-3">{pp.heroH1}</h1>
+          <p className="text-white/70 text-base m-0 max-w-[560px]">{pp.heroDesc}</p>
+        </div>
+      </div>
+
+      {/* Tabs + cards */}
+      <div className="max-w-[1200px] mx-auto px-6">
+        <div className="flex bg-white sticky top-[84px] z-[5]" style={{ borderBottom: '3px solid #e5e7eb', marginBottom: '2.5rem' }}>
+          {([
+            { key: 'bachelor' as const, label: pp.tabBachelor, emoji: '🎓', count: pp.bachelor.length },
+            { key: 'master'   as const, label: pp.tabMaster,   emoji: '📚', count: pp.master.length   },
+          ]).map(tab => (
+            <button
+              key={tab.key}
+              onClick={() => setActiveTab(tab.key)}
+              className={`flex-1 px-5 py-4 text-[15px] font-bold transition-all text-center cursor-pointer bg-transparent border-none -mb-[3px] ${
+                activeTab === tab.key
+                  ? 'text-[#004682]'
+                  : 'text-gray-500 hover:text-[#004682] hover:bg-gray-50'
+              }`}
+              style={{ borderBottom: `3px solid ${activeTab === tab.key ? '#0096f0' : 'transparent'}` }}
+            >
+              {tab.emoji} {tab.label}{' '}
+              <span className="text-xs font-semibold text-[#0096f0]">({tab.count})</span>
+            </button>
+          ))}
+        </div>
+
+        <div className="grid gap-4 pb-16" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))' }}>
+          {programs.map((prog, i) => (
+            <div key={i}
+              className="bg-white p-6 lg:p-7 transition-all cursor-default hover:-translate-y-0.5"
+              style={{ border: '1px solid #e5e7eb' }}
+              onMouseEnter={e => {
+                (e.currentTarget as HTMLDivElement).style.borderColor = '#0096f0';
+                (e.currentTarget as HTMLDivElement).style.boxShadow = '0 4px 24px rgba(0,150,240,.12)';
+              }}
+              onMouseLeave={e => {
+                (e.currentTarget as HTMLDivElement).style.borderColor = '#e5e7eb';
+                (e.currentTarget as HTMLDivElement).style.boxShadow = '';
+              }}
+            >
+              <span className="inline-block bg-[#0096f0] text-white text-[10px] font-extrabold px-2 py-0.5 uppercase tracking-[0.1em] mb-2">{prog.code}</span>
+              <div className="text-[15px] font-extrabold text-[#004682] leading-snug mb-1.5">{prog.title}</div>
+              <div className="text-[13px] text-gray-500 leading-relaxed">{prog.op}</div>
+            </div>
+          ))}
+        </div>
+
+        {/* CTA */}
+        <div className="bg-[#004682] mb-20 px-10 py-12 flex flex-wrap items-center justify-between gap-6">
+          <div>
+            <h3 className="text-white font-black mb-2" style={{ fontSize: '1.6rem' }}>{pp.ctaH3}</h3>
+            <p className="text-white/70 text-[15px] m-0">{pp.ctaP}</p>
+          </div>
+          <a href="https://vstupmaup.com.ua" target="_blank" rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-[#0096f0] hover:bg-white hover:text-[#004682] text-white px-9 py-4 text-[15px] font-extrabold no-underline transition-all whitespace-nowrap">
+            {pp.ctaBtn}
+          </a>
+        </div>
+      </div>
+    </motion.div>
+  );
+}
+
 // ═════════════════════════════════════════════════════════════════════════════
 export function LandingPage() {
   const [lang, setLang] = useState<Lang>('uk');
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [programsOpen, setProgramsOpen] = useState(false);
+  const [activeTab, setActiveTab] = useState<'bachelor' | 'master'>('bachelor');
   const tr = t[lang];
+
+  const openPrograms = () => { setActiveTab('bachelor'); setProgramsOpen(true); };
 
   useEffect(() => {
     const fn = () => setScrolled(window.scrollY > 10);
     window.addEventListener('scroll', fn, { passive: true });
     return () => window.removeEventListener('scroll', fn);
+  }, []);
+
+  useEffect(() => {
+    const fn = (e: KeyboardEvent) => { if (e.key === 'Escape') setProgramsOpen(false); };
+    window.addEventListener('keydown', fn);
+    return () => window.removeEventListener('keydown', fn);
   }, []);
 
   return (
@@ -320,14 +556,15 @@ export function LandingPage() {
             {/* Desktop nav */}
             <nav className="hidden lg:flex items-center gap-1 flex-1 justify-center">
               {[
-                { label: tr.nav.home,      href: '#',                               active: true  },
-                { label: tr.nav.about,     href: 'https://maup.com.ua/ua/pro-akademiyu/pro-maup.html', active: false },
-                { label: tr.nav.programs,  href: 'https://maup.com.ua/ua/navchannya-u-maup/napryami-navchannya1.html',   active: false },
-                { label: tr.nav.admission, href: 'https://vstupmaup.com.ua',    active: false },
-                { label: tr.nav.contacts,  href: 'https://maup.com.ua/ua/kontakti/kontaktna-informaciya.html',                       active: false },
+                { label: tr.nav.home,      href: '#',                               active: true,  onClick: undefined as (() => void) | undefined },
+                { label: tr.nav.about,     href: 'https://maup.com.ua/ua/pro-akademiyu/pro-maup.html', active: false, onClick: undefined },
+                { label: tr.nav.programs,  href: '#',   active: false, onClick: openPrograms },
+                { label: tr.nav.admission, href: 'https://vstupmaup.com.ua',    active: false, onClick: undefined },
+                { label: tr.nav.contacts,  href: 'https://maup.com.ua/ua/kontakti/kontaktna-informaciya.html', active: false, onClick: undefined },
               ].map(link => (
                 <a key={link.label} href={link.href}
-                  className={`relative px-4 py-2 text-sm font-semibold transition-colors rounded-sm group ${
+                  onClick={link.onClick ? (e) => { e.preventDefault(); link.onClick!(); } : undefined}
+                  className={`relative px-4 py-2 text-sm font-semibold transition-colors rounded-sm group cursor-pointer ${
                     link.active ? 'text-[#0096f0]' : 'text-gray-600 hover:text-[#004682]'
                   }`}>
                   {link.label}
@@ -374,9 +611,16 @@ export function LandingPage() {
             <motion.div initial={{ opacity: 0, y: -6 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -6 }}
               className="lg:hidden bg-white border-b border-gray-100 shadow-2xl">
               <div className="px-6 py-5 flex flex-col gap-1">
-                {[tr.nav.home, tr.nav.programs, tr.nav.admission, tr.nav.contacts].map(l => (
-                  <a key={l} href="#" className="py-3 px-4 text-[15px] font-semibold text-gray-700 hover:text-[#004682] hover:bg-[#f1f1e9] border-l-2 border-transparent hover:border-[#0096f0] transition-all rounded-r">
-                    {l}
+                {[
+                  { label: tr.nav.home,      href: '#',                          onClick: undefined as (() => void) | undefined },
+                  { label: tr.nav.programs,  href: '#',                          onClick: openPrograms },
+                  { label: tr.nav.admission, href: 'https://vstupmaup.com.ua',   onClick: undefined },
+                  { label: tr.nav.contacts,  href: 'https://maup.com.ua/ua/kontakti/kontaktna-informaciya.html', onClick: undefined },
+                ].map(l => (
+                  <a key={l.label} href={l.href}
+                    onClick={l.onClick ? (e) => { e.preventDefault(); l.onClick!(); setMenuOpen(false); } : undefined}
+                    className="py-3 px-4 text-[15px] font-semibold text-gray-700 hover:text-[#004682] hover:bg-[#f1f1e9] border-l-2 border-transparent hover:border-[#0096f0] transition-all rounded-r">
+                    {l.label}
                   </a>
                 ))}
                 <div className="mt-3 pt-3 border-t border-gray-100 flex flex-col gap-2">
@@ -462,10 +706,10 @@ export function LandingPage() {
                     className="inline-flex items-center gap-2.5 bg-[#0096f0] hover:bg-white hover:text-[#004682] text-white font-bold px-8 py-4 text-sm transition-all duration-200 hover:shadow-2xl hover:-translate-y-0.5">
                     {tr.hero.cta} <ArrowRight size={16} />
                   </a>
-                  <a href="#programs"
-                    className="inline-flex items-center gap-2.5 bg-[#0096f0] hover:bg-white hover:text-[#004682] text-white font-bold px-8 py-4 text-sm transition-all duration-200 hover:shadow-2xl hover:-translate-y-0.5">
+                  <button type="button" onClick={openPrograms}
+                    className="inline-flex items-center gap-2.5 bg-[#0096f0] hover:bg-white hover:text-[#004682] text-white font-bold px-8 py-4 text-sm transition-all duration-200 hover:shadow-2xl hover:-translate-y-0.5 cursor-pointer border-none">
                     {tr.hero.ctaSecondary}
-                  </a>
+                  </button>
                 </div>
               </motion.div>
 
@@ -570,19 +814,19 @@ export function LandingPage() {
                 </h2>
                 <div className="w-14 h-1 bg-[#0096f0] mt-5" />
               </div>
-              <a href="https://maup.com.ua/ua/navchannya-u-maup/napryami-navchannya1.html" target="_blank" rel="noopener noreferrer"
-                className="hidden md:inline-flex items-center gap-2 border-2 border-[#004682] text-[#004682] hover:bg-[#004682] hover:text-white px-6 py-3 text-sm font-bold transition-all flex-shrink-0">
+              <button type="button" onClick={openPrograms}
+                className="hidden md:inline-flex items-center gap-2 border-2 border-[#004682] text-[#004682] hover:bg-[#004682] hover:text-white px-6 py-3 text-sm font-bold transition-all flex-shrink-0 cursor-pointer bg-transparent">
                 {tr.programs.allBtn} <ArrowRight size={15} />
-              </a>
+              </button>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {tr.programs.items.map((item, i) => (
-                <motion.a key={i}
-                  href="https://maup.com.ua/ua/navchannya-u-maup/napryami-navchannya1.html" target="_blank" rel="noopener noreferrer"
+                <motion.div key={i}
+                  onClick={openPrograms}
                   initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }} transition={{ delay: i * 0.07 }}
-                  className="group block overflow-hidden border border-gray-100 hover:border-[#0096f0]/30 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+                  className="group block overflow-hidden border border-gray-100 hover:border-[#0096f0]/30 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 cursor-pointer">
                   <div className="h-52 overflow-hidden relative">
                     <img src={programImgs[i]} alt={item.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-600" />
@@ -602,15 +846,15 @@ export function LandingPage() {
                     <h3 className="font-black text-[#004682] text-lg mb-2 group-hover:text-[#0096f0] transition-colors">{item.title}</h3>
                     <p className="text-gray-400 text-sm leading-relaxed">{item.desc}</p>
                   </div>
-                </motion.a>
+                </motion.div>
               ))}
             </div>
 
             <div className="mt-8 text-center md:hidden">
-              <a href="https://maup.com.ua/ua/navchannya-u-maup/napryami-navchannya1.html" target="_blank" rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-[#004682] text-white px-8 py-3.5 text-sm font-bold hover:bg-[#0064b4] transition-colors">
+              <button type="button" onClick={openPrograms}
+                className="inline-flex items-center gap-2 bg-[#004682] text-white px-8 py-3.5 text-sm font-bold hover:bg-[#0064b4] transition-colors cursor-pointer border-none">
                 {tr.programs.allBtn} <ArrowRight size={15} />
-              </a>
+              </button>
             </div>
           </div>
         </section>
@@ -797,15 +1041,17 @@ export function LandingPage() {
             <h4 className="text-white font-black text-[11px] uppercase tracking-[0.18em] mb-5">{tr.footer.nav}</h4>
             <ul className="space-y-2.5">
               {[
-                { label: tr.nav.home,      href: '#' },
-                { label: tr.nav.about,     href: 'https://maup.com.ua/ua/pro-akademiyu/pro-maup.html' },
-                { label: tr.nav.programs,  href: 'https://maup.com.ua/ua/navchannya-u-maup/napryami-navchannya1.html' },
-                { label: tr.nav.admission, href: 'https://vstupmaup.com.ua' },
-                { label: tr.nav.contacts,  href: 'https://maup.com.ua/ua/kontakti/kontaktna-informaciya.html' },
+                { label: tr.nav.home,      href: '#',                               onClick: undefined as (() => void) | undefined },
+                { label: tr.nav.about,     href: 'https://maup.com.ua/ua/pro-akademiyu/pro-maup.html', onClick: undefined },
+                { label: tr.nav.programs,  href: '#',                               onClick: openPrograms },
+                { label: tr.nav.admission, href: 'https://vstupmaup.com.ua',        onClick: undefined },
+                { label: tr.nav.contacts,  href: 'https://maup.com.ua/ua/kontakti/kontaktna-informaciya.html', onClick: undefined },
               ].map(l => (
                 <li key={l.label}>
-                  <a href={l.href} target={l.href.startsWith('http') ? '_blank' : undefined} rel="noopener noreferrer"
-                    className="flex items-center gap-1.5 text-[#80b1d9] hover:text-white text-sm transition-colors group">
+                  <a href={l.href}
+                    onClick={l.onClick ? (e) => { e.preventDefault(); l.onClick!(); } : undefined}
+                    target={l.href.startsWith('http') ? '_blank' : undefined} rel="noopener noreferrer"
+                    className="flex items-center gap-1.5 text-[#80b1d9] hover:text-white text-sm transition-colors group cursor-pointer">
                     <ChevronRight size={12} className="text-[#0096f0] group-hover:translate-x-0.5 transition-transform" />
                     {l.label}
                   </a>
@@ -842,6 +1088,21 @@ export function LandingPage() {
           </div>
         </div>
       </footer>
+
+      {/* ═══ PROGRAMS PAGE OVERLAY ════════════════════════════════════════ */}
+      <AnimatePresence>
+        {programsOpen && (
+          <ProgramsPage
+            pp={tr.programsPage as PPData}
+            subtitle={tr.subtitle}
+            lang={lang}
+            onToggleLang={() => setLang(lang === 'uk' ? 'en' : 'uk')}
+            activeTab={activeTab}
+            setActiveTab={setActiveTab}
+            onClose={() => setProgramsOpen(false)}
+          />
+        )}
+      </AnimatePresence>
 
     </div>
   );
